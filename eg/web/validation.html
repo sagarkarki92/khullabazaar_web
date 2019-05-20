@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Validation</title>
+		<style type="text/css">
+			.err{
+				color:#ff0000;
+				font-style:italic;
+			}
+		</style>
+		<script type="text/javascript" src="validate.js"></script>
+	</head>
+	<body>
+		<h2>Login to the system</h2>
+		<form action="abc.php" method="post" onsubmit="return validation(this);">
+			<p><input type="text" name="txtusername" placeholder="username here" onblur = "validationi(this);"/><span class="err"></span></p>
+			<p><input type="password" name="password1" placeholder="Password here"/><span class="err"></span></p>
+			<p><input type="password" name="password2" placeholder="Confirm Password"/><span class="err"></span></p>
+			<input type="submit" name="submit" value="Submit"/>
+		</form>
+	</body>
+</html>

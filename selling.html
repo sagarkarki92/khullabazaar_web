@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sell Now</title>
+<script type="text/javascript" src="sellnowvalidation.js"></script>
+<link rel="stylesheet" type="text/css" href="layout.css">
+<link rel="stylesheet" type="text/css" href="selling.css">
+</head>
+<body>
+<div id="topheader">
+<ul>
+<li><a href="">Feedback</a></li>
+<li><a href="">Sign in </a></li> 
+</div> 
+<div class="searchbar">
+<a href="C:\Users\el nino\Desktop\projects\homepage.html"><img src="C:\Users\el nino\Desktop\projects\image\logo.png" height="95px" width="225px">
+</a></div>
+
+
+
+<div id="form">
+<h1> Details of Product*</h1>
+
+<form action="sa.html" method="post" name = "formname" onSubmit="return validation();">
+
+	<div class="row1">
+	Name:
+	</div>
+	<div class="row2"> <input type="text" name="prdctname" placeholder="enter your product name" ></br></br>
+	</div>
+
+						<div class="row1">Categories:</div>
+						<div class="row2">
+						<select id="category"name="category">
+			<option value="mobile and tablets">mobile and tablets</option>
+			<option value="Fashion and Clothes">Fashion and Clothes</option>
+			<option value="Sports and Wear">Sports and Wear</option>
+			<option value="electronics">electronics</option>
+			<option value="households">households</option>
+			<option value="cars and motorcycles">cars and motorcycles</option>
+			<option value="others">others</option>
+			</select></div>
+			</br></br>
+	<div class="row1">
+Selling From:
+</div>
+	<div class="row2">
+						<select id="sell" name="malls">
+						<option value="kathmandu mall">kathmandu mall</option>
+						<option value="CIVIL MALL">Civil mall</option>
+						<option value="SHERPA MALL">Sherpa mall</option>
+						<option value="BHATBATENI">Bhatbateni</option>
+						<option value="WORLD TRADE CENTRE">World Trade Centre</option>
+						<option value="others">others</option>
+						</select></br></br>
+</div>
+
+			<div class="subh" name="quantity">Quantity:</div>
+<div class="subinp"><input type="number" name="quantity" /></br></br></div>
+
+<div class="subh" name="price">Price(in Rs):</div> <div class="subinp"><input type="number" name="price" value=""/></div></br>
+
+Upload your product image:</br></br>
+<input type="file" name="uplaod"/>
+<input type="file" name="uplaod"/>
+<input type="file" name="uplaod"/>
+<input type="file" name="uplaod"/></br></br>
+<div class="row1">Description:</div>
+<textarea class="txtinput" name="description" rows="5" cols="50" placeholder="product description" style="border-radius:5px;"></textarea></br>
+<input type="checkbox" name="check" value="">i agree the <a href="">terms and conditions</a> </input><br><br>
+
+<input type="submit" value="next"> 
+
+
+</form>
+</div>
+
+
+</body>
+</html>

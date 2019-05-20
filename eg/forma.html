@@ -1,0 +1,49 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Form</title>
+	<link rel="stylesheet" type="text/css" href="csa.css"/>	
+</head>
+<body>
+	<div id="menubar">
+		<h1>this is menu bar</h1>
+	</div>
+	<div id="text">
+		<h1> you are welcome in this page do login to use the site or register.</h1>
+	</div>
+	<div id="form">
+	<form method="POST" action="www.google.com">
+	<fieldset>
+		<legend>Sign up</legend>
+		Your Name: 	<input type="text" name="txtname" class="txtinput" /><br/>
+		Password:	<input type="password" name="txtpwd" /><br/>
+		Gender:<br/>
+		<input type="radio" name="radgender" />Male
+		<input type="radio" name="radgender" />Female
+		<input type="radio" name="radgender" />Others <br/>
+		Hobbies:<br/>
+		<input class="hobbies" type="checkbox" name="chkhobbies" />Games
+		<input class="hobbies" type="checkbox" name="chkhobbies" />Singing
+		<input type="checkbox" class="hobbies" name="chkhobbies" />Dancing
+		<input type="checkbox" class="hobbies" name="chkhobbies" />Playing<br/>
+		Qualification:<br/>
+		<select name="selqual">
+			<option value="slc">SLC</option>
+			<option value="+2">+2</option>
+			<option value="bachelor">Bachelor</option>
+			<option value="master">Master's Degree</option>
+			<option value="phd">PHD</option>
+		</select><br/>
+		<input type="file" name="fileUpload"/>
+		<input type="hidden" name="" value=""/><br/>
+		Comments:<br/><textarea class="txtinput" rows="5" cols="30" ></textarea><br/>
+		<input type="button" name="btnok" value="ok"/><br/>
+		<input type="submit" name="submit" value="submit"/>&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="reset" name="reset" value="reset"/>		
+		</fieldset>
+	</form>
+	</div>
+</body>
+</html>
